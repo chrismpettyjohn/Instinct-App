@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "baseUrl": "./",
+    "sourceMap": false,
+    "jsx": "react",
+    "removeComments": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "lib": ["es2015", "esnext"],
+    "target": "es2015"
+  },
+  "include": [
+    "./src"
+  ]
+}
