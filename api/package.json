@@ -20,8 +20,8 @@
     "@instinct-api/ranks": "^2.4.4",
     "@instinct-api/rooms": "^2.4.4",
     "@instinct-api/session": "^2.4.4",
-    "@instinct-api/validator": "^2.4.4",
     "@instinct-api/users": "^2.4.4",
+    "@instinct-api/validator": "^2.4.4",
     "@instinct-plugin/findretros-api": "^2.4.4",
     "@instinct-plugin/forgot-password-api": "^2.4.5",
     "@instinct-plugin/manage-users-api": "^2.4.4",
@@ -33,18 +33,24 @@
     "@nestjs/common": "^7.6.18",
     "@nestjs/core": "^7.6.18",
     "@nestjs/platform-express": "^7.6.18",
+    "@nestjs/typeorm": "^7.1.5",
+    "aws-lambda": "^1.0.6",
+    "aws-serverless-express": "^3.4.0",
     "class-transformer": "^0.4.0",
     "class-validator": "^0.13.1",
     "cors": "^2.8.5",
+    "rxjs": "^7.1.0",
     "ts-node": "^10.0.0",
     "tsconfig-paths": "^3.9.0",
-    "@nestjs/typeorm": "^7.1.5",
     "typeorm": "0.2.31",
-    "typescript": "^4.3.4",
-    "rxjs": "^7.1.0"
+    "typescript": "^4.3.4"
   },
   "devDependencies": {
-    "@types/cors": "^2.8.10"
+    "@types/cors": "^2.8.10",
+    "plugin": "^0.3.3",
+    "serverless-offline": "^8.0.0",
+    "serverless-plugin-optimize": "^4.2.1-rc.1",
+    "serverless-plugin-typescript": "^1.1.9"
   },
   "gitHead": "21e01d7501fe1f1124c2a549fdc3eca62bb3f29c"
 }
